@@ -1,0 +1,170 @@
+2021-05-31 22:33:22,345 DEBUG scheduler Queued events for site ianrey
+2021-05-31 22:34:22,575 DEBUG scheduler Queued events for site ianrey
+2021-05-31 22:35:22,848 DEBUG scheduler Queued events for site ianrey
+2021-05-31 22:36:23,102 DEBUG scheduler Queued events for site ianrey
+2021-05-31 22:36:23,140 INFO scheduler Scheduled Job Start: frappe.monitor.flush for ianrey
+2021-05-31 22:36:23,254 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for ianrey
+2021-05-31 22:36:23,338 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for ianrey
+2021-05-31 22:36:23,450 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for ianrey
+2021-05-31 22:36:23,532 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for ianrey
+2021-05-31 22:36:23,898 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for ianrey
+2021-05-31 22:36:23,980 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for ianrey
+2021-05-31 22:36:24,311 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for ianrey
+2021-05-31 22:36:24,389 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for ianrey
+2021-05-31 22:36:24,704 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for ianrey
+2021-05-31 22:36:24,792 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for ianrey
+2021-05-31 22:36:25,074 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for ianrey
+2021-05-31 22:37:23,332 DEBUG scheduler Queued events for site ianrey
+2021-05-31 22:38:23,596 DEBUG scheduler Queued events for site ianrey
+2021-05-31 22:39:23,794 DEBUG scheduler Queued events for site ianrey
+2021-05-31 22:40:24,025 DEBUG scheduler Queued events for site ianrey
+2021-05-31 22:40:24,056 INFO scheduler Scheduled Job Start: frappe.monitor.flush for ianrey
+2021-05-31 22:40:24,179 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for ianrey
+2021-05-31 22:40:24,255 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for ianrey
+2021-05-31 22:40:24,383 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for ianrey
+2021-05-31 22:40:24,460 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for ianrey
+2021-05-31 22:40:24,847 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for ianrey
+2021-05-31 22:40:24,929 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for ianrey
+2021-05-31 22:40:25,250 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for ianrey
+2021-05-31 22:40:25,341 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for ianrey
+2021-05-31 22:40:25,637 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for ianrey
+2021-05-31 22:40:25,716 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for ianrey
+2021-05-31 22:40:25,987 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for ianrey
+2021-05-31 22:41:24,267 DEBUG scheduler Queued events for site ianrey
+2021-05-31 22:42:24,580 DEBUG scheduler Queued events for site ianrey
+2021-05-31 22:43:24,858 DEBUG scheduler Queued events for site ianrey
+2021-05-31 22:44:25,094 DEBUG scheduler Queued events for site ianrey
+2021-05-31 22:44:25,126 INFO scheduler Scheduled Job Start: frappe.monitor.flush for ianrey
+2021-05-31 22:44:25,237 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for ianrey
+2021-05-31 22:44:25,307 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for ianrey
+2021-05-31 22:44:25,420 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for ianrey
+2021-05-31 22:44:25,504 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for ianrey
+2021-05-31 22:44:25,841 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for ianrey
+2021-05-31 22:44:25,914 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for ianrey
+2021-05-31 22:44:26,180 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for ianrey
+2021-05-31 22:44:26,253 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for ianrey
+2021-05-31 22:44:26,544 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for ianrey
+2021-05-31 22:44:26,618 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for ianrey
+2021-05-31 22:44:26,857 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for ianrey
+2021-05-31 22:45:25,404 DEBUG scheduler Queued events for site ianrey
+2021-05-31 22:45:25,457 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for ianrey
+2021-05-31 22:45:25,834 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for ianrey
+2021-05-31 22:45:25,928 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for ianrey
+2021-05-31 22:45:26,345 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for ianrey
+2021-05-31 22:45:26,431 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for ianrey
+2021-05-31 22:45:26,818 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for ianrey
+2021-05-31 22:48:50,121 DEBUG scheduler Queued events for site ianrey
+2021-05-31 22:48:50,203 INFO scheduler Scheduled Job Start: frappe.monitor.flush for ianrey
+2021-05-31 22:48:51,190 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for ianrey
+2021-05-31 22:48:51,315 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for ianrey
+2021-05-31 22:48:51,496 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for ianrey
+2021-05-31 22:48:51,593 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for ianrey
+2021-05-31 22:48:52,343 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for ianrey
+2021-05-31 22:48:52,468 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for ianrey
+2021-05-31 22:48:53,131 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for ianrey
+2021-05-31 22:48:53,291 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for ianrey
+2021-05-31 22:48:53,813 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for ianrey
+2021-05-31 22:48:54,003 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for ianrey
+2021-05-31 22:48:54,534 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for ianrey
+2021-05-31 22:49:50,331 DEBUG scheduler Queued events for site ianrey
+2021-05-31 22:50:50,522 DEBUG scheduler Queued events for site ianrey
+2021-05-31 22:51:50,773 DEBUG scheduler Queued events for site ianrey
+2021-05-31 22:52:51,000 DEBUG scheduler Queued events for site ianrey
+2021-05-31 22:52:51,050 INFO scheduler Scheduled Job Start: frappe.monitor.flush for ianrey
+2021-05-31 22:52:51,195 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for ianrey
+2021-05-31 22:52:51,284 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for ianrey
+2021-05-31 22:52:51,409 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for ianrey
+2021-05-31 22:52:51,494 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for ianrey
+2021-05-31 22:52:51,860 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for ianrey
+2021-05-31 22:52:51,951 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for ianrey
+2021-05-31 22:52:52,298 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for ianrey
+2021-05-31 22:52:52,404 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for ianrey
+2021-05-31 22:52:52,734 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for ianrey
+2021-05-31 22:52:52,824 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for ianrey
+2021-05-31 22:52:53,098 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for ianrey
+2021-05-31 22:53:51,238 DEBUG scheduler Queued events for site ianrey
+2021-05-31 22:54:51,456 DEBUG scheduler Queued events for site ianrey
+2021-05-31 22:55:51,658 DEBUG scheduler Queued events for site ianrey
+2021-05-31 22:56:51,898 DEBUG scheduler Queued events for site ianrey
+2021-05-31 22:56:51,945 INFO scheduler Scheduled Job Start: frappe.monitor.flush for ianrey
+2021-05-31 22:56:52,124 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for ianrey
+2021-05-31 22:56:52,209 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for ianrey
+2021-05-31 22:56:52,346 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for ianrey
+2021-05-31 22:56:52,554 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for ianrey
+2021-05-31 22:56:53,118 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for ianrey
+2021-05-31 22:56:53,254 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for ianrey
+2021-05-31 22:56:53,548 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for ianrey
+2021-05-31 22:56:53,625 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for ianrey
+2021-05-31 22:56:54,118 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for ianrey
+2021-05-31 22:56:54,209 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for ianrey
+2021-05-31 22:56:54,796 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for ianrey
+2021-05-31 22:57:52,125 DEBUG scheduler Queued events for site ianrey
+2021-05-31 22:58:52,312 DEBUG scheduler Queued events for site ianrey
+2021-05-31 22:59:52,525 DEBUG scheduler Queued events for site ianrey
+2021-05-31 23:00:53,135 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for ianrey
+2021-05-31 23:00:53,276 DEBUG scheduler Queued events for site ianrey
+2021-05-31 23:00:54,092 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for ianrey
+2021-05-31 23:00:54,197 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for ianrey
+2021-05-31 23:00:54,949 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for ianrey
+2021-05-31 23:00:55,054 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for ianrey
+2021-05-31 23:00:55,774 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for ianrey
+2021-05-31 23:00:55,907 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for ianrey
+2021-05-31 23:00:56,676 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for ianrey
+2021-05-31 23:00:56,779 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for ianrey
+2021-05-31 23:00:57,295 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for ianrey
+2021-05-31 23:00:57,390 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for ianrey
+2021-05-31 23:00:57,824 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for ianrey
+2021-05-31 23:00:57,912 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for ianrey
+2021-05-31 23:00:58,329 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for ianrey
+2021-05-31 23:00:58,426 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for ianrey
+2021-05-31 23:00:58,827 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for ianrey
+2021-05-31 23:00:58,935 INFO scheduler Scheduled Job Start: frappe.monitor.flush for ianrey
+2021-05-31 23:00:59,072 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for ianrey
+2021-05-31 23:00:59,161 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for ianrey
+2021-05-31 23:00:59,303 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for ianrey
+2021-05-31 23:00:59,390 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for ianrey
+2021-05-31 23:01:00,179 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for ianrey
+2021-05-31 23:01:00,259 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for ianrey
+2021-05-31 23:01:00,880 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for ianrey
+2021-05-31 23:01:01,044 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for ianrey
+2021-05-31 23:01:01,660 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for ianrey
+2021-05-31 23:01:01,750 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for ianrey
+2021-05-31 23:01:02,025 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for ianrey
+2021-05-31 23:01:02,155 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for ianrey
+2021-05-31 23:01:02,860 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for ianrey
+2021-05-31 23:01:03,014 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for ianrey
+2021-05-31 23:01:03,911 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for ianrey
+2021-05-31 23:01:04,009 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for ianrey
+2021-05-31 23:01:04,516 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for ianrey
+2021-05-31 23:01:53,493 DEBUG scheduler Queued events for site ianrey
+2021-05-31 23:02:53,854 DEBUG scheduler Queued events for site ianrey
+2021-05-31 23:03:54,245 DEBUG scheduler Queued events for site ianrey
+2021-05-31 23:04:54,538 DEBUG scheduler Queued events for site ianrey
+2021-05-31 23:04:54,570 INFO scheduler Scheduled Job Start: frappe.monitor.flush for ianrey
+2021-05-31 23:04:54,961 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for ianrey
+2021-05-31 23:04:55,037 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for ianrey
+2021-05-31 23:04:55,157 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for ianrey
+2021-05-31 23:04:55,228 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for ianrey
+2021-05-31 23:04:55,656 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for ianrey
+2021-05-31 23:04:55,730 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for ianrey
+2021-05-31 23:04:56,074 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for ianrey
+2021-05-31 23:04:56,146 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for ianrey
+2021-05-31 23:04:56,415 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for ianrey
+2021-05-31 23:04:56,491 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for ianrey
+2021-05-31 23:04:56,723 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for ianrey
+2021-05-31 23:05:54,809 DEBUG scheduler Queued events for site ianrey
+2021-05-31 23:06:55,014 DEBUG scheduler Queued events for site ianrey
+2021-05-31 23:07:55,248 DEBUG scheduler Queued events for site ianrey
+2021-05-31 23:08:55,579 DEBUG scheduler Queued events for site ianrey
+2021-05-31 23:08:55,620 INFO scheduler Scheduled Job Start: frappe.monitor.flush for ianrey
+2021-05-31 23:08:55,768 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for ianrey
+2021-05-31 23:08:55,867 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for ianrey
+2021-05-31 23:08:56,008 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for ianrey
+2021-05-31 23:08:56,098 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for ianrey
+2021-05-31 23:08:56,506 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for ianrey
+2021-05-31 23:08:56,591 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for ianrey
+2021-05-31 23:08:56,922 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for ianrey
+2021-05-31 23:08:57,013 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for ianrey
+2021-05-31 23:08:57,384 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for ianrey
+2021-05-31 23:08:57,474 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for ianrey
+2021-05-31 23:08:57,893 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for ianrey

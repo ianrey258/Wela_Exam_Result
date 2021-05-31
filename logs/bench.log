@@ -1,0 +1,175 @@
+2021-05-31 13:47:10,372 DEBUG cd ianrey-frappe && /home/ianrey258/.local/bin/virtualenv -q env -p python3
+2021-05-31 13:47:10,712 LOG Getting app frappe
+2021-05-31 13:47:10,712 DEBUG cd ianrey-frappe/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2021-05-31 13:47:17,820 LOG installing frappe
+2021-05-31 13:47:17,820 DEBUG ianrey-frappe/env/bin/python -m pip install -q -U -e ianrey-frappe/apps/frappe 
+2021-05-31 13:47:52,329 DEBUG cd ianrey-frappe/apps/frappe && yarn install
+2021-05-31 13:48:03,477 DEBUG cd ianrey-frappe/apps/frappe && yarn install
+2021-05-31 13:48:04,236 DEBUG cd ianrey-frappe && bench build
+2021-05-31 13:48:04,424 INFO /home/ianrey258/.local/bin/bench build
+2021-05-31 13:48:18,529 LOG setting up backups
+2021-05-31 13:48:18,533 INFO Bench ianrey-frappe initialized
+2021-05-31 13:48:41,346 INFO /home/ianrey258/.local/bin/bench new-site ianrey
+2021-05-31 13:48:49,619 INFO /home/ianrey258/.local/bin/bench new-site ianrey
+2021-05-31 13:49:49,178 INFO /home/ianrey258/.local/bin/bench new-site ianrey
+2021-05-31 13:50:37,170 INFO /home/ianrey258/.local/bin/bench new-app ianrey_app
+2021-05-31 13:50:37,175 LOG creating new app ianrey_app
+2021-05-31 13:51:00,191 LOG installing ianrey_app
+2021-05-31 13:51:00,192 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/ianrey_app 
+2021-05-31 13:51:03,010 DEBUG bench build --app ianrey_app
+2021-05-31 13:51:03,199 INFO /home/ianrey258/.local/bin/bench build --app ianrey_app
+2021-05-31 13:51:14,023 INFO /home/ianrey258/.local/bin/bench migrate
+2021-05-31 13:51:19,923 INFO /home/ianrey258/.local/bin/bench migrate ianrey
+2021-05-31 13:51:27,012 INFO /home/ianrey258/.local/bin/bench ianrey migrate
+2021-05-31 13:51:27,013 WARNING /home/ianrey258/.local/bin/bench ianrey migrate executed with exit code 2
+2021-05-31 13:52:02,429 INFO /home/ianrey258/.local/bin/bench clear-cache
+2021-05-31 13:52:15,436 INFO /home/ianrey258/.local/bin/bench clear-cache --site ianrey
+2021-05-31 13:52:21,010 INFO /home/ianrey258/.local/bin/bench start
+2021-05-31 13:53:10,268 INFO /home/ianrey258/.local/bin/bench --site ianrey migrate
+2021-05-31 13:55:00,534 INFO /home/ianrey258/.local/bin/bench --site ianrey migrate
+2021-05-31 13:55:10,233 INFO /home/ianrey258/.local/bin/bench --site ianrey clear-cache
+2021-05-31 13:55:16,718 INFO /home/ianrey258/.local/bin/bench --site ianrey start
+2021-05-31 13:55:23,395 INFO /home/ianrey258/.local/bin/bench start
+2021-05-31 13:55:58,589 INFO /home/ianrey258/.local/bin/bench --site ianrey install-app ianrey_app
+2021-05-31 13:57:00,851 INFO /home/ianrey258/.local/bin/bench new-site ianrey1
+2021-05-31 14:02:57,815 INFO /home/ianrey258/.local/bin/bench sites
+2021-05-31 14:02:57,816 WARNING /home/ianrey258/.local/bin/bench sites executed with exit code 2
+2021-05-31 14:03:00,383 INFO /home/ianrey258/.local/bin/bench site
+2021-05-31 14:03:00,384 WARNING /home/ianrey258/.local/bin/bench site executed with exit code 2
+2021-05-31 14:03:11,761 INFO /home/ianrey258/.local/bin/bench new-site ianrey
+2021-05-31 14:04:09,226 INFO /home/ianrey258/.local/bin/bench --site ianrey migrate
+2021-05-31 14:04:22,241 INFO /home/ianrey258/.local/bin/bench --site ianrey clear-cache
+2021-05-31 14:04:42,588 INFO /home/ianrey258/.local/bin/bench --site ianrey install-app ianrey_app
+2021-05-31 14:05:53,671 INFO /home/ianrey258/.local/bin/bench start
+2021-05-31 14:06:21,808 INFO /home/ianrey258/.local/bin/bench clear-cache
+2021-05-31 14:06:25,790 INFO /home/ianrey258/.local/bin/bench start
+2021-05-31 14:08:24,356 INFO /home/ianrey258/.local/bin/bench start
+2021-05-31 14:08:24,969 INFO /home/ianrey258/.local/bin/bench worker --queue long
+2021-05-31 14:08:25,041 INFO /home/ianrey258/.local/bin/bench serve --port 8001
+2021-05-31 14:08:25,055 INFO /home/ianrey258/.local/bin/bench schedule
+2021-05-31 14:08:25,108 INFO /home/ianrey258/.local/bin/bench worker --queue short
+2021-05-31 14:08:25,101 INFO /home/ianrey258/.local/bin/bench worker --queue default
+2021-05-31 14:08:25,122 INFO /home/ianrey258/.local/bin/bench watch
+2021-05-31 14:10:31,709 INFO /home/ianrey258/.local/bin/bench start
+2021-05-31 14:10:32,347 INFO /home/ianrey258/.local/bin/bench worker --queue short
+2021-05-31 14:10:32,403 INFO /home/ianrey258/.local/bin/bench worker --queue default
+2021-05-31 14:10:32,439 INFO /home/ianrey258/.local/bin/bench serve --port 8001
+2021-05-31 14:10:32,443 INFO /home/ianrey258/.local/bin/bench worker --queue long
+2021-05-31 14:10:32,507 INFO /home/ianrey258/.local/bin/bench watch
+2021-05-31 14:10:32,516 INFO /home/ianrey258/.local/bin/bench schedule
+2021-05-31 14:20:52,836 INFO /home/ianrey258/.local/bin/bench --site ianrey migrate
+2021-05-31 15:22:08,334 INFO /home/ianrey258/.local/bin/bench get-app --help
+2021-05-31 15:23:02,131 INFO /home/ianrey258/.local/bin/bench get-app https://github.com/ianrey258/ianrey_app
+2021-05-31 15:23:10,050 LOG Getting app ianrey_app
+2021-05-31 15:23:10,053 DEBUG cd ./apps && git clone https://github.com/ianrey258/ianrey_app  --depth 1 --origin upstream
+2021-05-31 15:24:07,891 INFO /home/ianrey258/.local/bin/bench clear-cache
+2021-05-31 15:24:18,078 INFO /home/ianrey258/.local/bin/bench --site ianrey clear-cache
+2021-05-31 15:26:45,654 INFO /home/ianrey258/.local/bin/bench --site ianrey list-apps
+2021-05-31 15:27:00,815 INFO /home/ianrey258/.local/bin/bench --site ianrey list-apps
+2021-05-31 15:27:29,382 INFO /home/ianrey258/.local/bin/bench --site ianrey uninstall-app ianrey_app
+2021-05-31 15:29:37,929 INFO /home/ianrey258/.local/bin/bench --site ianrey install-app ianrey_app
+2021-05-31 15:29:47,837 INFO /home/ianrey258/.local/bin/bench --site ianrey install-app ianrey
+2021-05-31 15:31:02,543 INFO /home/ianrey258/.local/bin/bench --site ianrey uninstall-app ianrey_app
+2021-05-31 15:31:06,030 INFO /home/ianrey258/.local/bin/bench --site ianrey uninstall-app ianrey_app --force
+2021-05-31 15:31:39,586 INFO /home/ianrey258/.local/bin/bench --site ianrey uninstall-app Ianrey --force
+2021-05-31 15:34:50,072 INFO /home/ianrey258/.local/bin/bench --site all list-apps
+2021-05-31 15:35:23,345 INFO /home/ianrey258/.local/bin/bench --site all list-apps
+2021-05-31 15:36:14,250 INFO /home/ianrey258/.local/bin/bench --site all list-apps
+2021-05-31 15:36:23,721 INFO /home/ianrey258/.local/bin/bench --site ianrey list-apps
+2021-05-31 15:37:04,968 INFO /home/ianrey258/.local/bin/bench get-app https://github.com/ianrey258/ianrey_app
+2021-05-31 15:37:05,030 LOG Getting app ianrey_app
+2021-05-31 15:37:05,031 DEBUG cd ./apps && git clone https://github.com/ianrey258/ianrey_app  --depth 1 --origin upstream
+2021-05-31 15:37:24,672 INFO /home/ianrey258/.local/bin/bench --site ianrey list-apps
+2021-05-31 15:37:46,653 INFO /home/ianrey258/.local/bin/bench --site ianrey install ianrey_app
+2021-05-31 15:37:52,992 INFO /home/ianrey258/.local/bin/bench --site ianrey install-app ianrey_app
+2021-05-31 15:38:45,261 INFO /home/ianrey258/.local/bin/bench --site ianrey install-app Ianrey
+2021-05-31 15:39:53,563 INFO /home/ianrey258/.local/bin/bench new-app ianrey_app
+2021-05-31 15:39:53,567 LOG creating new app ianrey_app
+2021-05-31 15:40:20,952 LOG installing ianrey_app
+2021-05-31 15:40:20,954 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/ianrey_app 
+2021-05-31 15:40:23,908 DEBUG bench build --app ianrey_app
+2021-05-31 15:40:24,109 INFO /home/ianrey258/.local/bin/bench build --app ianrey_app
+2021-05-31 15:42:10,046 INFO /home/ianrey258/.local/bin/bench uninstall ianrey_app
+2021-05-31 15:42:10,047 WARNING /home/ianrey258/.local/bin/bench uninstall ianrey_app executed with exit code 2
+2021-05-31 15:42:24,518 INFO /home/ianrey258/.local/bin/bench remove ianrey_app
+2021-05-31 15:42:24,519 WARNING /home/ianrey258/.local/bin/bench remove ianrey_app executed with exit code 2
+2021-05-31 15:42:29,636 INFO /home/ianrey258/.local/bin/bench
+2021-05-31 15:42:41,572 INFO /home/ianrey258/.local/bin/bench remove-app ianrey_app
+2021-05-31 15:42:41,775 INFO /home/ianrey258/.local/bin/bench --site all list-apps --format json
+2021-05-31 15:42:42,285 WARNING /home/ianrey258/.local/bin/bench remove-app ianrey_app executed with exit code 1
+2021-05-31 15:43:10,048 INFO /home/ianrey258/.local/bin/bench --site ianrey uninstall-app ianrey_app
+2021-05-31 15:43:23,637 INFO /home/ianrey258/.local/bin/bench --site ianrey uninstall-app ianrey_app
+2021-05-31 15:43:44,182 INFO /home/ianrey258/.local/bin/bench remove-app ianrey_app
+2021-05-31 15:43:44,385 INFO /home/ianrey258/.local/bin/bench --site all list-apps --format json
+2021-05-31 15:43:44,902 WARNING /home/ianrey258/.local/bin/bench remove-app ianrey_app executed with exit code 1
+2021-05-31 15:44:06,924 INFO /home/ianrey258/.local/bin/bench --site ianrey app-lists
+2021-05-31 15:44:11,160 INFO /home/ianrey258/.local/bin/bench --site ianrey app-list
+2021-05-31 15:44:18,860 INFO /home/ianrey258/.local/bin/bench --site ianrey list-app
+2021-05-31 15:44:28,239 INFO /home/ianrey258/.local/bin/bench --site ianrey --help
+2021-05-31 15:44:53,380 INFO /home/ianrey258/.local/bin/bench --site ianrey list-apps
+2021-05-31 15:45:14,150 INFO /home/ianrey258/.local/bin/bench --site ianrey uninstall-app ianrey_app
+2021-05-31 15:46:10,021 INFO /home/ianrey258/.local/bin/bench --site ianrey uninstall-app ianrey_app
+2021-05-31 15:55:10,459 INFO /home/ianrey258/.local/bin/bench --site ianrey uninstall-app ianrey_app
+2021-05-31 15:55:14,985 INFO /home/ianrey258/.local/bin/bench --site ianrey uninstall-app ianrey_app
+2021-05-31 15:56:24,370 INFO /home/ianrey258/.local/bin/bench remove-app ianrey_app
+2021-05-31 15:56:24,374 WARNING /home/ianrey258/.local/bin/bench remove-app ianrey_app executed with exit code 1
+2021-05-31 16:21:01,995 INFO /home/ianrey258/.local/bin/bench remove-app ianreyapp
+2021-05-31 16:21:02,000 WARNING /home/ianrey258/.local/bin/bench remove-app ianreyapp executed with exit code 1
+2021-05-31 16:22:39,960 INFO /home/ianrey258/.local/bin/bench --site ianrey show-config
+2021-05-31 16:24:21,942 INFO /home/ianrey258/.local/bin/bench --site ianrey --help
+2021-05-31 16:37:50,610 INFO /home/ianrey258/.local/bin/bench get-app https://github.com/ianrey258/ianrey_app
+2021-05-31 16:37:50,671 LOG Getting app ianrey_app
+2021-05-31 16:37:50,672 DEBUG cd ./apps && git clone https://github.com/ianrey258/ianrey_app  --depth 1 --origin upstream
+2021-05-31 16:39:22,124 INFO /home/ianrey258/.local/bin/bench --site ianrey install-app ianrey_app
+2021-05-31 16:39:41,970 INFO /home/ianrey258/.local/bin/bench --site all list-apps
+2021-05-31 16:42:26,857 INFO /home/ianrey258/.local/bin/bench --site ianrey install-app ianrey_app
+2021-05-31 16:42:42,563 INFO /home/ianrey258/.local/bin/bench --site ianrey install-app ianrey_app
+2021-05-31 16:43:30,522 INFO /home/ianrey258/.local/bin/bench --site ianrey install-app ianrey
+2021-05-31 16:52:14,688 INFO /home/ianrey258/.local/bin/bench get-app https://github.com/ianrey258/ianrey_app
+2021-05-31 16:52:14,754 LOG Getting app ianrey_app
+2021-05-31 16:52:14,755 DEBUG cd ./apps && git clone https://github.com/ianrey258/ianrey_app  --depth 1 --origin upstream
+2021-05-31 16:52:16,784 LOG installing ianrey_app
+2021-05-31 16:52:16,784 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/ianrey_app 
+2021-05-31 16:52:19,802 DEBUG bench build --app ianrey_app
+2021-05-31 16:52:19,997 INFO /home/ianrey258/.local/bin/bench build --app ianrey_app
+2021-05-31 16:52:53,615 INFO /home/ianrey258/.local/bin/bench --site ianrey install-app ianrey_app
+2021-05-31 16:53:10,078 INFO /home/ianrey258/.local/bin/bench start
+2021-05-31 16:53:10,775 INFO /home/ianrey258/.local/bin/bench worker --queue long
+2021-05-31 16:53:10,812 INFO /home/ianrey258/.local/bin/bench worker --queue short
+2021-05-31 16:53:10,905 INFO /home/ianrey258/.local/bin/bench serve --port 8001
+2021-05-31 16:53:10,927 INFO /home/ianrey258/.local/bin/bench worker --queue default
+2021-05-31 16:53:10,994 INFO /home/ianrey258/.local/bin/bench schedule
+2021-05-31 16:53:11,011 INFO /home/ianrey258/.local/bin/bench watch
+2021-05-31 16:53:27,710 INFO /home/ianrey258/.local/bin/bench --site ianrey migrate
+2021-05-31 16:53:33,723 INFO /home/ianrey258/.local/bin/bench start
+2021-05-31 16:53:34,518 INFO /home/ianrey258/.local/bin/bench serve --port 8001
+2021-05-31 16:53:34,533 INFO /home/ianrey258/.local/bin/bench worker --queue short
+2021-05-31 16:53:34,555 INFO /home/ianrey258/.local/bin/bench worker --queue default
+2021-05-31 16:53:34,586 INFO /home/ianrey258/.local/bin/bench watch
+2021-05-31 16:53:34,601 INFO /home/ianrey258/.local/bin/bench schedule
+2021-05-31 16:53:34,612 INFO /home/ianrey258/.local/bin/bench worker --queue long
+2021-05-31 16:53:51,504 INFO /home/ianrey258/.local/bin/bench --site ianrey migrate
+2021-05-31 21:39:06,646 INFO /home/ianrey258/.local/bin/bench start
+2021-05-31 21:39:07,195 INFO /home/ianrey258/.local/bin/bench schedule
+2021-05-31 21:39:07,324 INFO /home/ianrey258/.local/bin/bench worker --queue short
+2021-05-31 21:39:07,428 INFO /home/ianrey258/.local/bin/bench serve --port 8001
+2021-05-31 21:39:07,449 INFO /home/ianrey258/.local/bin/bench worker --queue long
+2021-05-31 21:39:07,456 INFO /home/ianrey258/.local/bin/bench watch
+2021-05-31 21:39:07,496 INFO /home/ianrey258/.local/bin/bench worker --queue default
+2021-05-31 22:40:48,673 INFO /home/ianrey258/.local/bin/bench --help
+2021-05-31 22:40:56,076 INFO /home/ianrey258/.local/bin/bench sites
+2021-05-31 22:40:56,078 WARNING /home/ianrey258/.local/bin/bench sites executed with exit code 2
+2021-05-31 22:44:22,824 INFO /home/ianrey258/.local/bin/bench list-sites
+2021-05-31 22:44:22,826 WARNING /home/ianrey258/.local/bin/bench list-sites executed with exit code 2
+2021-05-31 22:44:27,612 INFO /home/ianrey258/.local/bin/bench site
+2021-05-31 22:44:27,613 WARNING /home/ianrey258/.local/bin/bench site executed with exit code 2
+2021-05-31 22:44:29,816 INFO /home/ianrey258/.local/bin/bench sites
+2021-05-31 22:44:29,818 WARNING /home/ianrey258/.local/bin/bench sites executed with exit code 2
+2021-05-31 22:47:33,845 INFO /home/ianrey258/.local/bin/bench --site ianrey list-apps
+2021-05-31 22:47:47,256 INFO /home/ianrey258/.local/bin/bench start
+2021-05-31 22:47:48,061 INFO /home/ianrey258/.local/bin/bench schedule
+2021-05-31 22:47:48,095 INFO /home/ianrey258/.local/bin/bench worker --queue default
+2021-05-31 22:47:48,098 INFO /home/ianrey258/.local/bin/bench serve --port 8001
+2021-05-31 22:47:48,210 INFO /home/ianrey258/.local/bin/bench worker --queue short
+2021-05-31 22:47:48,257 INFO /home/ianrey258/.local/bin/bench watch
+2021-05-31 22:47:48,391 INFO /home/ianrey258/.local/bin/bench worker --queue long

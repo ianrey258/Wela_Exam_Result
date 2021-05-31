@@ -1,0 +1,522 @@
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+14:11:55 Traceback (most recent call last):
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/core/doctype/user/user.py", line 1184, in create_contact
+    contact.insert(ignore_permissions=True, ignore_links=ignore_links, ignore_mandatory=ignore_mandatory)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/model/document.py", line 232, in insert
+    self._validate_links()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/model/document.py", line 828, in _validate_links
+    frappe.LinkValidationError)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/__init__.py", line 431, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/__init__.py", line 410, in msgprint
+    _raise_exception()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/__init__.py", line 364, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.LinkValidationError: Could not find User Id: ianreyinfinity@gmail.com
+
+15:03:28 Traceback (most recent call last):
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/desk/page/backups/backups.py", line 86, in backup_files_and_notify_user
+    header=[subject, 'green']
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/__init__.py", line 539, in sendmail
+    inline_images=inline_images, header=header, print_letterhead=print_letterhead, with_container=with_container)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/email/queue.py", line 78, in send
+    match_by_doctype=reference_doctype, match_by_email=sender, _raise_error=True)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/utils/error.py", line 233, in wrapper_raise_error_on_no_output
+    frappe.throw(error_message, error_type or Exception)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/__init__.py", line 431, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/__init__.py", line 410, in msgprint
+    _raise_exception()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/__init__.py", line 364, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+Traceback (most recent call last):
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 559, in connect
+Traceback (most recent call last):
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 559, in connect
+22:46:14 Could not connect to Redis instance: Connection closed by server. Retrying in 1 seconds...
+    sock = self._connect()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    sock = self._connect()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/utils/bench_helper.py", line 19, in main
+    click.Group(commands=commands)(prog_name='bench')
+    "__main__", mod_spec)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/click/core.py", line 829, in __call__
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/utils/bench_helper.py", line 19, in main
+    click.Group(commands=commands)(prog_name='bench')
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/click/core.py", line 782, in main
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+    return self.main(*args, **kwargs)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/click/core.py", line 1259, in invoke
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/click/core.py", line 610, in invoke
+    rv = self.invoke(ctx)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/click/core.py", line 1259, in invoke
+Traceback (most recent call last):
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 615, in _connect
+    return callback(*args, **kwargs)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/commands/scheduler.py", line 178, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/rq/worker.py", line 626, in work
+    raise err
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    self.register_death()
+    exec(code, run_globals)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/rq/worker.py", line 326, in register_death
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/utils/bench_helper.py", line 19, in main
+    p.execute()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 4013, in execute
+    click.Group(commands=commands)(prog_name='bench')
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/click/core.py", line 1259, in invoke
+    self.shard_hint)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11001. Connection refused.
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/commands/scheduler.py", line 178, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 4013, in execute
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/commands/scheduler.py", line 178, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 4013, in execute
+    self.shard_hint)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11001. Connection refused.
+    self.shard_hint)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11001. Connection refused.
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/home/ianrey258/Documents/Workspace_Linux/ianrey-frappe/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
